@@ -12,5 +12,5 @@ func main() {
 	fmt.Print("Ingresar direccion : ")
 	var lname string
 	fmt.Scan(&lname)
-	fmt.Print("tus datos son : nombre:  " + fname + " Direccion: " + lname + ".")
+	fmt.Print("tus datos son: nombre:  " + fname + " Direccion: " + lname + ".")
 }
