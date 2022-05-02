@@ -7,10 +7,10 @@ import (
 func main() {
 
 	var fname string
-	fmt.Print("Ingresar nombre: ")
+	fmt.Print("name: ")
 	fmt.Scan(&fname)
-	fmt.Print("Ingresar direccion : ")
+	fmt.Print("city: ")
 	var lname string
 	fmt.Scan(&lname)
-	fmt.Print("tus datos son: nombre:  " + fname + " Direccion: " + lname + ".")
+	fmt.Print("data: name:  " + fname + " city: " + lname + ".")
 }
