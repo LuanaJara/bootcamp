@@ -13,7 +13,7 @@ fmt.Println(persona {"Luana", 18})
 fmt.Println(persona {"Santi", 19})
 fmt.Println(persona {"Ori", 21})
 
-s := persona{nombre: "Abuelo", edad: 50}
+s := persona{nombre: "abuela", edad: 50}
 fmt.Println(s.nombre)
 
 sp := &s
